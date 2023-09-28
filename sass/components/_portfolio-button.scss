@@ -1,0 +1,37 @@
+.filter {}
+
+.filter__title {}
+
+.filter__nav {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filter__button {
+  border-radius: 4px;
+  padding: 6px 22px;
+  height: 38px;
+
+  text-align: center;
+  border: 1px transparent;
+
+  color: $title-text-color;
+  background-color: $bg-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    color: $color-text-white;
+    background-color: $accent-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
