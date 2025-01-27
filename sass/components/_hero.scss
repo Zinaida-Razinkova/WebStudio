@@ -76,10 +76,18 @@ screen and (min-resolution: 2dppx) {
   border: 1px $accent-color;
   color: $color-text-white;
   background-color: $accent-color;
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
+
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  background-color: #155991;
 }

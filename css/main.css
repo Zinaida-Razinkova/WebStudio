@@ -385,11 +385,17 @@ body.modal-open {
   border: 1px #2196f3;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  background-color: #155991;
 }
 
 .backdrop {
@@ -642,6 +648,7 @@ body.modal-open {
   height: 50px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
   text-align: center;
   border: 1px #2196f3;
   color: #ffffff;
@@ -652,6 +659,11 @@ body.modal-open {
   letter-spacing: 0.06em;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.modal__button-send:hover,
+.hmodal__button-send:focus {
+  background-color: #155991;
 }
 
 .advantages__list {
@@ -1131,6 +1143,7 @@ body.modal-open {
   gap: 10px;
   max-width: 200px;
   height: 50px;
+  cursor: pointer;
   border-radius: 4px;
   border: solid 1px #2196f3;
   padding: 10px 10px 10px 30px;
@@ -1149,6 +1162,12 @@ body.modal-open {
   .footer__form-button {
     margin: 0 auto;
   }
+}
+
+.footer__form-button:hover,
+.footer__form-button:focus {
+  background-color: #155991;
+  border: solid 1px #155991;
 }
 
 .footer__form-icon {

@@ -210,7 +210,7 @@
   max-width: 250px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+  cursor: pointer;
   text-align: center;
   border: 1px $accent-color;
 
@@ -224,4 +224,9 @@
 
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.modal__button-send:hover,
+.hmodal__button-send:focus {
+  background-color: #155991;
 }
